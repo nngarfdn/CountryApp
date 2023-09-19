@@ -9,6 +9,30 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btn_show_custom_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Custom Dialog"/>
+
+    <Button
+        android:id="@+id/btn_show_alert_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show AlertDialog"/>
+
+    <Button
+        android:id="@+id/btn_show_calendar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Calendar"/>
+
+    <Button
+        android:id="@+id/btn_show_time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Time Picker"/>
+
     <Spinner
         android:id="@+id/spinnerCountry"
         android:layout_width="match_parent"
